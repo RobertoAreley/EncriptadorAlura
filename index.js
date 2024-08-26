@@ -82,7 +82,7 @@ function corregir(){
 
 
 const vocal = ["e", "i", "a", "o", "u"];
-const vocalEncriptada = ["ron", "son", "por", "link", "tan"];
+const vocalEncriptada = ["enter", "imes", "ai", "ober", "ufat"];
 
 
 function encriptar(){
