@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body id="body" onload="iniciar();">
+    <marco id="marco"></marco>
+    <div id="pagina">
+        <div class="logo">
+            <h1><a href="https://www.aluracursos.com/">a</a></h1>
+        </div>
+        <div id="secText">
+            <button id="borrar" class="material-symbols-outlined">delete</button>
+            <textarea spellcheck="false"  type="text" id="ingTextAqui" placeholder="Ingrese texto aquí"></textarea>
+            <button id="reparar"><span class="material-symbols-outlined">build</span> Reparar texto</button>
+            <label for="ingTextAqui"> Ingrese solo letras minusculas y sin acentos</label>
+        </div>
+        <div class="botones">
+            <button id="btnEncriptar" class="boton">ENCRIPTAR</button>
+            <button id="btnDesencriptar" class="boton">DESENCRIPTAR</button>
+        </div>
+        <div class="mensaje">
+            <img id="imagen" src="img/Candado.jpg" alt="imagen buscando un texto">
+            <textarea  readonly id="msg" placeholder="No se encontro ningún mensaje"></textarea>
+            <button id="btnCopy" class="copiar">Copiar</button>
+        </div>
+        <footer class="foot">
+            <a href="https://www.linkedin.com/in/juanrobertoareyzaga/"><img src="img/linkedin.png" alt="linkedin"></a>
+            <a href="https://github.com/RobertoAreley"><img src="img/github.png" alt="github"></a>
+            <p>&copy; Agosto<span></span>2024</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+<script src="index.js"></script>
+
+</html>
